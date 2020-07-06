@@ -1,0 +1,514 @@
+/*navbar-section*/
+.site-logo img{
+    width: 100px;
+    height: 90px;
+}
+.site-logo{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+}
+.site-menu-toggle .icon-menu{
+    color: #31343C;
+}
+.navbar-header{
+    padding: 0px;
+}
+.site-navbar a{
+    font-weight: 1.5rem;
+}
+.site-menu-toggle{
+    
+}
+/*home-section*/
+#home-section h1,h2,h3{
+    color: #fff;
+}
+
+/* About-Us-section */
+#about-us-section{
+    /* background-color: #F0F2F5; */
+}
+.about-us-section-heading{
+    text-align: center;
+    margin-top: 90px;
+    padding: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+    color: #53B2E5;
+}
+.about-us-section-heading i{
+    padding: 0 30px;
+}
+.about-us-heading{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: #31343C;
+    font-weight: bold;
+    border-bottom: 2px solid #31343C;
+}
+.about-us{
+    padding: 50px 0;
+}
+.about-us-image{
+    margin: 0;
+    padding: 0px 10px;
+    display: grid;
+    height: 100%;
+}
+.about-us-image img{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+.about-us-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us-description{
+    padding-top: 30px;
+}
+.faculty-img{
+    padding: 40px;
+}
+.faculty-text{
+    text-align: center;
+    color: #979797;
+}
+.gov-faculty-text{
+    padding-top: 30px;
+}
+#about-us-section img{
+    
+}
+
+/* events-section */
+#events-section{
+    background-color: #F0F2F5;
+}
+.events-section-heading{
+    text-align: center;
+    margin-top: 90px;
+    padding: 50px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+    color: #53B2E5;
+}
+.events-section-heading i{
+    padding: 0px 30px;
+}
+.events-section-description{
+    text-align: center;
+}
+.techdesk-row,.githeat-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+}
+.techdesk-heading,.githeat-heading{
+    color: #31343C;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-bottom: 2px solid #31343C;
+}
+.techdesk-img-container,.githeat-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techdesk-description,.githeat-description{
+    padding-top: 13px;
+}
+.techdesk-img{
+    width: 200px;
+    height: 300px;
+}
+.githeat-img{
+    width: 400px;
+    height: 260px;
+}
+.techdesk-img-container,.techdesk-text-container,.githeat-img-container,.githeat-text-container{
+    padding: 10px 20px;
+}
+.techdesk-text-container button{
+    color: #fff;
+    border-color: #53B2E5;
+    background-color: #53B2E5;
+    border-radius: 5px;
+}
+.techdesk-text-container button:hover{
+    color: #53B2E5;
+    border-color: #53B2E5;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.githeat-text-container button{
+    color: #fff;
+    border-color: #53B2E5;
+    background-color: #53B2E5;
+    border-radius: 5px;
+}
+.githeat-text-container button:hover{
+    color: #53B2E5;
+    border-color: #53B2E5;
+    background-color: #fff;
+    border-radius: 5px;;
+}
+.other-events-heading{
+    color: #31343C;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px solid #31343C;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.other-events-row{
+    margin-top: 50px;
+}
+#events-section .events-container img{
+    width: 200px;
+    height: 300px;
+}
+.modal-header{
+    text-align: center;
+}
+.modal-body{
+    text-align: center;
+}
+.modal-footer{
+    text-align: center;
+}
+.events-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: box-shadow .5s;
+}
+.events-container:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.5);
+}
+
+
+/* workshops-section */
+#workshops-section{
+    /* background-color: #F0F2F5; */
+}
+#workshops-section img{
+    height: 230px;
+    width: 230px;
+}
+.workshops-section-heading{
+    text-align: center;
+    margin-top: 110px;
+    padding: 50px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+    color: #53B2E5;
+}
+.workshops-section-heading i{
+    padding: 0px 30px;
+}
+.workshops-section-description{
+    text-align: center;
+}
+.modal-header{
+    text-align: center;
+}
+.modal-body{
+    text-align: center;
+}
+.modal-footer{
+    text-align: center;
+}
+.workshops-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: box-shadow .5s;
+}
+.workshops-container:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.5);
+}
+
+
+
+/* hackabit-section */
+#hackabit-section{
+    background-color: #F0F2F5;
+}
+.hackabit-section-heading{
+    text-align: center;
+    margin-top: 90px;
+    padding: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+    color: #53B2E5;    
+}
+.hackabit-section-heading i{
+    padding: 0 30px;
+}
+.hackabit-text{
+
+}
+.hackabit-heading{
+
+}
+.hackabit-description{
+    padding-top: 30px;
+}
+.hackabit-text button{
+    color: #fff;
+    border-color: #53B2E5;
+    background-color: #53B2E5;
+    border-radius: 5px;
+}
+.hackabit-text button:hover{
+    color: #53B2E5;
+    border-color: #53B2E5;
+    background-color: #fff;
+    border-radius: 5px;;
+}
+.hackabit-image{
+    margin: 0;
+    padding: 0px 10px;
+    display: grid;
+    height: 100%;
+}
+.hackabit-image img{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    padding: 20px;
+}
+
+/* gallery-section */
+#gallery-section{
+    /* background-color: #F0F2F5; */
+}
+.gallery-section-heading{
+    text-align: center;
+    margin-top: 90px;
+    padding: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+    color: #53B2E5;
+}
+.gallery-section-heading i{
+    padding: 0 30px;
+}
+.events-gallery,.workshops-gallery{
+    padding: 30px 0px;
+}
+.events-gallery-text,.workshops-gallery-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #979797;
+}
+.events-gallery-heading,.workshops-gallery-heading{
+    color: #31343C;
+    padding: 30px 5px;
+    font-weight: bold;
+    border-bottom: 2px solid #31343C;
+    padding-bottom: 5px;
+}
+
+
+
+/*team-section*/
+#team-section{
+    background-color: #F0F2F5;
+}
+.team-section-heading{
+    text-align: center;
+    margin-top: 90px;
+    padding: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+    color: #53B2E5;
+}
+.team-section-heading i{
+    padding: 0 30px;
+}
+.team-section-description{
+    text-align: center;
+    margin-top: -20px;
+    padding-bottom: 60px;
+}
+.social span{
+    color: #fff;
+}
+#team-section .team-member img{
+    width: 100%;
+    height: 40vh;
+}
+
+
+/*testimonials-section*/
+#testimonials-section{
+    /* background-color: #F0F2F5; */
+}
+.testimonials-section-heading{
+    text-align: center;
+    margin-top: 90px;
+    padding: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+    color: #53B2E5;
+}
+.testimonials-section-heading i{
+    padding: 0 15px;
+}
+
+
+
+/* contact-us-section */
+#contact-us-section{
+    background-color: #31343C;
+    color: #fff;
+}
+#contact-us-section a{
+    color: #fff;
+}
+#contact-us-section a:hover{
+    color: #53B2E5; 
+}
+#contact-us-section button{
+    color: #53B2E5;
+    border-color: #53B2E5;
+}
+#contact-us-section button:hover{
+    color: #fff;
+    background-color: #53B2E5;
+}
+.contact-us-heading{
+    text-align: center;
+    margin-top: 70px;
+    padding: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+}
+.contact-us-heading i{
+    padding: 0 30px;
+}
+.side-icon-box {
+    padding: 35px;
+}
+.side-icon-box div{
+    text-align: center;
+}
+.side-icon-box p{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.side-icon-box strong{
+    padding-right: 10px;
+}
+.follow-us-fb,.follow-us-linkedin,.follow-us-github{
+    padding: 10px 10px;
+}
+.contact-form-input{
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+.contact-form-button{
+    border-radius: 5px;
+}
+.contact-us-form-error-ajax{
+    margin-left: 20px;
+    padding: 10px;
+}
+.error-icon,.success-icon{
+    width: 25px;
+    height: 25px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+.error-text,.success-text{
+    padding: 2px;
+}
+.footer-middle{
+    margin-top: 30px;
+}
+.footer-middle .social-menu{
+    margin-top: 20px;
+}
+.footer-middle button{
+    margin: 5px 15px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.footer-middle-text{
+    margin-left: 23px;
+    padding-top: 20px;
+}
+.footer-bottom{
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-bottom p img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+.follow-us-div{
+    text-align: center;
+    padding: 30px;
+}
+
+.social-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-menu li{
+    list-style-type: none;
+}
+.social-menu a{
+    margin: 0px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+#ietkyah {
+    margin-top: 10%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(19, 85, 192); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #14268f; 
+  }
